@@ -7,7 +7,7 @@ export default function App() {
   const [name, setName] = useState('');
   const [username, setUserName] = useState(name + Math.round(Math.random()*1000));
   const clickHandler = () => {
-    setMsg('Loading...');
+    setMsg('Loading....');
   }
   return (
     <View style={styles.container}>
